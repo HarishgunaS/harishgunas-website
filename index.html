@@ -31,50 +31,117 @@
     </ul>
 </nav>
 
-<div class="jumbotron">
+<div class="jumbotron bg-dark text-white border border-light border-right-0 border-left-0 border-bottom-0">
   <div class="row">
     <div class="col-sm-1"></div>
-    <div class="col-sm-11">
-        <h1 class="display-3">Hi I'm Harish</h1>
+    <div class="col-sm-6">
+            <h1 class="display-3">Hi, I'm Harish</h1>
+            <p class="lead">Welcome to my website. I’m an engineering student at UofT looking for internship opportunities. I’m interested in novel technologies and enjoy solving programming problems using data structures and algorithms. Apart from work and school, I enjoy gaming, watching T.V., and trying new food.</p>
     </div>
-  </div>
-  <div class="row">
-      <div class="col-sm-1"></div>
-      <div class="col-sm-6">
-        <p class="lead">Welcome to my website. I’m an engineering student at UofT looking for internship opportunities. I’m interested in novel technologies and enjoy solving programming problems using data structures and algorithms. Apart from work and school, I enjoy gaming, watching T.V., and trying new food.</p> 
+  </div> 
+</div>
+
+<div class="container font-weight-light">
+  <!--<h2 class="font-weight-normal">Interests</h2>-->
+  <div id="accordion">
+      <div class="card">
+          <div class="card-header">
+              <a class="card-link" data-toggle="collapse" href="#lowLevel">
+                  Low Level Development
+              </a>
+          </div>
+          <div id="lowLevel" class="collapse" data-parent="#accordion">
+              <div class="card-body">
+                <ul>
+                    <li>Computer Organization</li>
+                    <li>Embedded Systems</li>
+                    <li>OS Programming</li>
+                </ul>
+              </div>
+          </div>
       </div>
-  </div>  
+      <div class="card">
+        <div class="card-header">
+            <a class="card-link" data-toggle="collapse" href="#gameDev">
+                Game Development
+            </a>
+        </div>
+        <div id="gameDev" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+              <p>add</p>
+            </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+            <a class="card-link" data-toggle="collapse" href="#hci">
+                Human Computer Interaction
+            </a>
+        </div>
+        <div id="hci" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+                <ul>
+                    <li>Augmented Reality</li>
+                </ul>
+            </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+            <a class="card-link" data-toggle="collapse" href="#ai">
+                Artificial Intelligence
+            </a>
+        </div>
+        <div id="ai" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+                <ul>
+                    <li>Machine Learning</li>
+                    <li>Computer Vision</li>
+                </ul>
+            </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+            <a class="card-link" data-toggle="collapse" href="#quant">
+                Quantitative Trading
+            </a>
+        </div>
+        <div id="quant" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+                <p>Add</p>
+            </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+            <a class="card-link" data-toggle="collapse" href="#hacking">
+                Hacking
+            </a>
+        </div>
+        <div id="hacking" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+                <p>Add</p>
+            </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+            <a class="card-link" data-toggle="collapse" href="#alternative">
+                Alternative Computing
+            </a>
+        </div>
+        <div id="alternative" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+                <ul>
+                    <li>Quantum Computing</li>
+                    <li>FPGAs</li>
+                    <li>Neuromorphic Computing</li>
+                </ul>
+            </div>
+        </div>
+      </div>
+  </div>
 </div>
-
-<div class="container">
-  <h2>Interests</h2>
-  <ul>
-      <li>Low Level Development</li>
-        <ul>
-            <li>Computer Organization</li>
-            <li>Embedded Systems</li>
-            <li>OS Programming</li>
-        </ul>
-      <li>Game Development</li>
-      <li>Human Computer Interaction</li>
-        <ul>
-            <li>Augmented Reality</li>
-        </ul>
-      <li>Artificial Intelligence</li>
-        <ul>
-            <li>Machine Learning</li>
-            <li>Computer Vision</li>
-        </ul>
-      <li>Quantitative Trading</li>
-      <li>Hacking</li>
-      <li>Alternative Computing</li>
-        <ul>
-            <li>Quantum Computing</li>
-            <li>FPGAs</li>
-            <li>Neuromorphic Computing</li>
-        </ul>
-  </ul>
-</div>
-
 </body>
 </html>
