@@ -1,0 +1,3 @@
+[submodule "hacking-writeups"]
+	path = hacking-writeups
+	url = https://github.com/HarishgunaS/hacking-writeups
